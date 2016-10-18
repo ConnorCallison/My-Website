@@ -13,6 +13,16 @@
     "jade": "~1.11.0",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0",
-    "stylus": "0.54.5"
-  }
+    "stylus": "0.54.5",
+    "webpack": "^1.13.2"
+  },
+  "description": "Portfolio Site",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "My-Website"
+  },
+  "author": "Connor Callison",
+  "license": "ISC"
 }
