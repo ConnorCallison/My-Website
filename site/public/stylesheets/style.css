@@ -1,6 +1,7 @@
 body {
   padding-top: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image:url(../images/footer_lodyas.png);
 }
 a {
   color: #00b7ff;
@@ -12,8 +13,13 @@ a {
     background-repeat: no-repeat;
     color: white;
 }
+.col-md-4 {
+	color: #ffffff;
+	background:url(../images/congruent_outline.png);
+}
+
 footer {
-	background-color: #999999;
+	background:url(../images/brushed.png);
 	color: #ffffff;
 	padding-top: 10px;
 	text-align: left;
@@ -21,5 +27,10 @@ footer {
 	margin-top: 50px;
 	padding: 50px;
 	height: 50px;
+	position:fixed;
+ 	bottom:0;
+ 	left:0;
+ 	right: 0;
+ 	color: #000000;
 
 }
