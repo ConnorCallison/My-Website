@@ -7,7 +7,7 @@ html
    // The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
    meta(name='My portfolio websire focused on learning front end development', content='')
    meta(name='Connor Callison', content='')
-   title Connor Callison
+   title #{title} - Connor Callison
    // Bootstrap core CSS
    link(href='stylesheets/bootstrap.css', rel='stylesheet')
    //This pages style
@@ -37,8 +37,13 @@ html
               a(href='#contact') Contact
         // /.nav-collapse
     block content
+    footer
+            p &copy Connor Callison 2016
+
         script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
-        script.
-          window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\\\/script>')
         script(src='/javascripts/bootstrap.min.js')
+
+
+
+
 
